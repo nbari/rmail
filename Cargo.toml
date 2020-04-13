@@ -1,0 +1,20 @@
+[package]
+name = "rmail"
+version = "0.0.1"
+authors = ["Nicolas Embriz <nbari@tequila.io>"]
+description = "a mail transfer agent"
+documentation = "https://github.com/nbari/rmail"
+homepage = "https://github.com/nbari/rmail"
+repository = "https://github.com/nbari/rmail"
+readme = "README.md"
+keywords = ["smtp", "mta", "email"]
+categories = ["email"]
+license = "BSD-3-Clause"
+edition = "2018"
+
+[badges]
+travis-ci = { repository = "nbari/rmail", branch = "master" }
+
+[dependencies]
+clap = "2.33"
+dsn = "1"
